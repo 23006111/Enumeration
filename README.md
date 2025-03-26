@@ -1,4 +1,4 @@
-#  Exp No:3--Enumeration
+# Exp No:3--Enumeration
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
