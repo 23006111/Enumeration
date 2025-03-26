@@ -70,12 +70,14 @@ link: This operator allows you to search for pages that link to a specific URL. 
 #DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
+~~~
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
+~~~
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/f7d91997-4d68-48fd-b53a-65757ac55498)
 
@@ -86,9 +88,9 @@ Top level domain expansion
 
 
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
-
+~~~
 Get the host’s addresses (A record).
 Get the namservers (threaded).
 Get the MX record (threaded).
@@ -99,13 +101,14 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+~~~
 
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/2c1976e6-98eb-4c29-89f8-852bcced51fa)
 
 
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/032aaaca-8e2a-4159-af62-5f5a11325c54)
