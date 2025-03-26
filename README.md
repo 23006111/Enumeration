@@ -79,7 +79,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ~~~
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/f7d91997-4d68-48fd-b53a-65757ac55498)
+![image](https://github.com/user-attachments/assets/bddb2ef9-f2fc-4b0a-9a43-f33ca2417709)
 
 
 
@@ -104,7 +104,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 ~~~
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/2c1976e6-98eb-4c29-89f8-852bcced51fa)
+![image](https://github.com/user-attachments/assets/04e1535f-178a-433b-ae7c-17c4524f03a2)
 
 
 
