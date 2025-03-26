@@ -63,7 +63,7 @@ link: This operator allows you to search for pages that link to a specific URL. 
 ![image](https://github.com/user-attachments/assets/245c880f-b700-4674-ac4e-eecce6880517)
 
 
-cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
 
 
  
@@ -77,6 +77,8 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/f7d91997-4d68-48fd-b53a-65757ac55498)
+
 
 
 
@@ -98,23 +100,20 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/2c1976e6-98eb-4c29-89f8-852bcced51fa)
+
+
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/032aaaca-8e2a-4159-af62-5f5a11325c54)
 
-
-In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
+![image](https://github.com/user-attachments/assets/8160c9d3-db2d-4a5a-8cca-0e34c53e51fe)
 
-
-#Telnet for smtp enumeration
-Telnet allows to connect to remote host based on the port no. For smtp port no is 25
-telnet <host address> 25 to connect
-and issue appropriate commands
-  
- ##Output
-  
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -123,6 +122,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/ca0f37b6-c7dd-4dba-9e93-080a7095a83b)
 
 
 ## RESULT:
